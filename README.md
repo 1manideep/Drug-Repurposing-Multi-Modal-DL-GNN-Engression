@@ -145,7 +145,7 @@ Open and run the notebook:
 ```
 jupyter notebook main.ipynb
 ```
-You can modify data paths in the preprocessing section. Sample data and embeddings are provided for reproducibility.
+You can modify data paths in the preprocessing section.
 
 ---
 ## 📘 Citation
