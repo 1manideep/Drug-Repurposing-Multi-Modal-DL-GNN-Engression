@@ -21,7 +21,7 @@ This project leverages multiple data modalities:
 
 ## ⚙️ Pipeline
 
-<img src="images/Framework.png" width="850" alt="Framework Diagram">
+<img src="media/Framework.png" width="850" alt="Framework Diagram">
 
 **Fig 1.** Multi-modal, uncertainty-aware deep learning framework for AI-driven drug repurposing.
 
@@ -88,11 +88,11 @@ The figures below illustrate both potency distributions and exceedance probabili
 <table>
   <tr>
     <td align="center">
-      <img src="images/results_1.png" width="450" alt="Predicted drug potency distributions with 1σ shading."><br>
+      <img src="media/results_1.png" width="450" alt="Predicted drug potency distributions with 1σ shading."><br>
       <sub><b>Fig 7.</b> Predicted drug potency distributions with 1 σ shading.</sub>
     </td>
     <td align="center">
-      <img src="images/results_2.png" width="450" alt="Probability of exceeding pIC50 = 7.0 for each drug candidate."><br>
+      <img src="media/results_2.png" width="450" alt="Probability of exceeding pIC50 = 7.0 for each drug candidate."><br>
       <sub><b>Fig 8.</b> Probability of exceeding pIC₅₀ = 7.0 for each drug candidate.</sub>
     </td>
   </tr>
@@ -113,13 +113,11 @@ The combination of predictive performance, calibrated confidence, and diagnostic
 Drug-Repurposing-MultiModal-DL-GNN-Engression/
 │
 ├── main.ipynb                 # Full research notebook (end-to-end pipeline)
-├── data/                      # Folder for example or small datasets
-│   ├── sample_activities.csv
-│   └── pubmed_embeddings.parquet
 ├── images/                    # Figures used in README
-│   ├── framework.png
-│   ├── results_1.png
-│   └── results_2.png
+│   ├── framework.png          #Multi-modal, Uncertainty-aware Deep Learning Framework
+│   ├── results_1.png          #Predicted drug potency distributions
+│   └── results_2.png          #Probability of exceeding pIC50 = 7.0 for each drug candidate
+│   └── AI-Driven Drug Repurposing Using Multi-Modal Deep Learning & Graph Neural Networks.pptx.pdf          #Presentation slides from Scipy India 2025
 ├── requirements.txt           # Environment dependencies
 ├── LICENSE                    # MIT License
 └── README.md                  # Project documentation (this file)
@@ -146,9 +144,16 @@ You can modify data paths in the preprocessing section. Sample data and embeddin
 
 If you use this code, please cite the accompanying preprint:
 
-Pendyala, M., & Ramsundar, A. (2025).
-AI-Driven Drug Repurposing Using Multi-Modal Deep Learning and Graph Neural Networks.
+Pendyala, M., & Ramsundar, A. (2025). AI-Driven Drug Repurposing Using Multi-Modal Deep Learning and Graph Neural Networks.
 arXiv preprint (in submission).
+
+---
+
+### 🎤 Presentation
+
+Pendyala, M. (2025, October 4).  AI-driven drug repurposing using multi-modal deep learning & graph neural networks. Presented at **SciPy India 2025**, Online.  
+
+📄 [Download Presentation (PDF)](media/AI-Driven%20Drug%20Repurposing%20Using%20Multi-Modal%20Deep%20Learning%20%26%20Graph%20Neural%20Networks.pptx.pdf)
 
 ---
 ## 📄 License
