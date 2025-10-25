@@ -1,0 +1,73 @@
+# ===============================================================
+#  AI-Driven Drug Repurposing with Multi-Modal Deep Learning & GNN
+#  Requirements File (Python ≥ 3.10)
+# ===============================================================
+
+# ---------- Core Scientific Stack ----------
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.5.2
+pyarrow==16.1.0
+tqdm==4.66.4
+matplotlib==3.9.0
+requests==2.32.3
+pyyaml==6.0.1
+
+# ---------- Notebook Utilities ----------
+jupyterlab==4.2.3
+ipykernel==6.29.5
+ipywidgets==8.1.3
+
+# ---------- NLP / Transformers (BioBERT via HF) ----------
+transformers==4.41.2
+tokenizers==0.19.1
+datasets==2.20.0
+sentencepiece==0.2.0
+accelerate==0.33.0
+
+# BioBERT weights are NOT redistributed here.
+# Download from official repository:
+#   https://github.com/naver/biobert-pretrained/releases
+# Recommended version:
+#   BioBERT-Base v1.1 (+ PubMed 1M)
+# Place under: models/biobert/
+# (config.json, pytorch_model.bin, vocab.txt, tokenizer_config.json, etc.)
+
+# ---------- Chemistry / SMILES (MolBERT via HF) ----------
+rdkit-pypi==2022.9.5
+
+# MolBERT pretrained on ChEMBL v33 (MIT-licensed):
+#   https://huggingface.co/jonghyunlee/MolecularBERT_ChEMBL_v33
+# Reference Paper:
+#   https://spj.science.org/doi/10.34133/research.0004
+# Place downloaded weights under: models/molbert/
+
+# ---------- Graphs / GNN ----------
+networkx==3.3
+# For PyTorch Geometric (install AFTER torch)
+# Example (CPU build):
+#   pip install torch-geometric torch-scatter torch-sparse torch-cluster torch-spline-conv \
+#       -f https://data.pyg.org/whl/torch-2.2.0+cpu.html
+# Replace "+cpu" with "+cu121" or your CUDA version as needed.
+# Docs: https://pytorch-geometric.readthedocs.io/
+
+# ---------- Download Helpers ----------
+gdown==5.2.0
+
+# ---------- PyTorch (install per your system) ----------
+# DO NOT pin torch here — choose based on your platform.
+# Example (CPU):
+#   pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 \
+#       --index-url https://download.pytorch.org/whl/cpu
+# Example (CUDA 12.1):
+#   pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 \
+#       --index-url https://download.pytorch.org/whl/cu121
+
+# ===============================================================
+# External Resources Referenced in this Research:
+#   - BioBERT: https://github.com/naver/biobert-pretrained
+#   - MolBERT (ChEMBL v33): https://huggingface.co/jonghyunlee/MolecularBERT_ChEMBL_v33
+#   - ChEMBL Database: https://www.ebi.ac.uk/chembl/
+#   - CTD: https://ctdbase.org/
+# ===============================================================
