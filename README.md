@@ -161,7 +161,7 @@ arXiv preprint (in submission).
 
 Pendyala, M. (2025, October 4).  AI-driven drug repurposing using multi-modal deep learning & graph neural networks. Presented at **SciPy India 2025**, Online.  
 
-📄 [Download Presentation (PDF)](media/AI-Driven%20Drug%20Repurposing%20Using%20Multi-Modal%20Deep%20Learning%20%26%20Graph%20Neural%20Networks.pptx.pdf)
+📄 [Presentation (PDF)](media/AI-Driven%20Drug%20Repurposing%20Using%20Multi-Modal%20Deep%20Learning%20%26%20Graph%20Neural%20Networks.pptx.pdf)
 
 ---
 ## 📄 License
