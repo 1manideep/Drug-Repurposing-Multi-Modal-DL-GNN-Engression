@@ -46,6 +46,14 @@ This project leverages multiple data modalities:
 
 ---
 
+## 📂 Data & Pre-trained Resources
+
+This project leverages multiple open-access data sources and pretrained models — including **ChEMBL**, **CTD**, **BioBERT**, and **MolBERT (ChEMBL v33)** — for molecular, textual, and graph-based feature extraction.  
+
+To ensure license compliance and reproducibility, **all official links and download sources** for datasets and pretrained weights are listed in the [`requirements.txt`](requirements.txt) file.  No third-party weights or large datasets are redistributed in this repository. 
+
+---
+
 # 📊 Results & Case Study
 
 We evaluate our pipeline using regression, classification, calibration, and ranking metrics.  
