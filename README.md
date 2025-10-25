@@ -113,11 +113,11 @@ The combination of predictive performance, calibrated confidence, and diagnostic
 Drug-Repurposing-MultiModal-DL-GNN-Engression/
 │
 ├── main.ipynb                 # Full research notebook (end-to-end pipeline)
-├── images/                    # Figures used in README
+├── media/                    # Figures used in README
 │   ├── framework.png          #Multi-modal, Uncertainty-aware Deep Learning Framework
 │   ├── results_1.png          #Predicted drug potency distributions
 │   └── results_2.png          #Probability of exceeding pIC50 = 7.0 for each drug candidate
-│   └── AI-Driven Drug Repurposing Using Multi-Modal Deep Learning & Graph Neural Networks.pptx.pdf          #Presentation slides from Scipy India 2025
+│   └── AI-Driven Drug Repurposing Using Multi-Modal Deep Learning & Graph Neural Networks.pptx.pdf      #Presentation slides from Scipy India 2025
 ├── requirements.txt           # Environment dependencies
 ├── LICENSE                    # MIT License
 └── README.md                  # Project documentation (this file)
